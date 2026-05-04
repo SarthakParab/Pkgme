@@ -1,6 +1,6 @@
 # pkgme
 
-A beginner-friendly CLI tool for managing packages on Linux. pkgme automatically detects which package managers are installed on your system and provides a single, consistent interface — no need to remember distro-specific commands.
+A beginner-friendly CLI tool for managing packages on Linux. pkgme automatically detects which package managers are installed on your system and provides a single, consistent interface, reducing the need to remember distro-specific commands.
 
 ---
 
@@ -9,8 +9,8 @@ A beginner-friendly CLI tool for managing packages on Linux. pkgme automatically
 - Auto-detects installed package managers (apt, dnf, yum, pacman, yay, zypper, apk, snap, flatpak)
 - Install, uninstall, search, and update packages through a guided interactive menu
 - Upgrade all packages across every detected package manager in one command
-- Lazy package manager selection — only asks when an action actually needs it
-- Distro-aware dependency hints — if `rich` is missing, tells you the right install command for your distro
+- Lazy package manager selection: only asks when an action actually needs it
+- Distro-aware dependency hints: if `rich` is missing, tells you the right install command for your distro
 - Clean, colour-coded terminal output via the [Rich](https://github.com/Textualize/rich) library
 
 ---
@@ -34,7 +34,7 @@ A beginner-friendly CLI tool for managing packages on Linux. pkgme automatically
 ## Requirements
 
 - Python 3.6+
-- [rich](https://github.com/Textualize/rich) — install via your package manager:
+- [rich](https://github.com/Textualize/rich). Install via your package manager:
 
 | Distro          | Command                        |
 |-----------------|--------------------------------|
