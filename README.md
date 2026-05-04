@@ -11,7 +11,7 @@ A beginner-friendly CLI tool for managing packages on Linux. pkgme automatically
 - Upgrade all packages across every detected package manager in one command
 - Lazy package manager selection — only asks when an action actually needs it
 - Distro-aware dependency hints — if `rich` is missing, tells you the right install command for your distro
-- Clean, colour-coded terminal output via the [Rich](https://github.com/Texel/rich) library
+- Clean, colour-coded terminal output via the [Rich](https://github.com/Textualize/rich) library
 
 ---
 
@@ -34,7 +34,7 @@ A beginner-friendly CLI tool for managing packages on Linux. pkgme automatically
 ## Requirements
 
 - Python 3.6+
-- [rich](https://github.com/Texel/rich) — install via your package manager:
+- [rich](https://github.com/Textualize/rich) — install via your package manager:
 
 | Distro          | Command                        |
 |-----------------|--------------------------------|
